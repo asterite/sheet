@@ -1,5 +1,6 @@
 \header{
   title = "Plants vs. Zombies - Ultimate Battle"
+  composer = "Laura Shigihara"
 }
 
 upper = \relative c' {
@@ -8,26 +9,26 @@ upper = \relative c' {
   \time 4/4
 
   a16 e'16 a16 r16
-  g16 e16 r16 d8
-  g8 e8 d16 c16 b16
+  g16 e16 r16 d8[
+  g8] e8[ d16 c16 b16]
   |
   a16 e'16 a16 r16
-  g16 e16 r16 d8
-  g8 e8 d16 c16 b16
+  g16 e16 r16 d8[
+  g8] e8[ d16 c16 b16]
   |
   a16 e'16 a16 r16
-  g16 e16 r16 d8
-  g8 e8 d16 c16 b16
+  g16 e16 r16 d8[
+  g8] e8[ d16 c16 b16]
   |
   a16 e'16 a16 r16
-  g16 e16 r16 d8
-  g8 e8 d16 c16 b16
+  g16 e16 r16 d8[
+  g8] e8[ d16 c16 b16]
   |
   <<a'1 c e>>
   |
-  r8 d8 g16 a8 e8 d8 c8 d16 e16 f16
+  r8 d8[ g16 a8] e8 d8 c8 d16[ e16 f16]
   |
-  <<a,1 c e>>
+  <<c1 e>>
 }
 
 lower = \relative c {
@@ -42,9 +43,9 @@ lower = \relative c {
   |
   d,4 e4 f4 g4
   |
-  a8. e'8. a8. a8 e16 c8 e,8
+  a8.[ e'8. a8.] a8[ e16 c8] e,8
   |
-  a8. e'8. a8. e8. c8 e,8
+  a8.[ e'8. a8.] e8.[ c8] e,8
 }
 
 \score {
@@ -57,7 +58,7 @@ lower = \relative c {
   \midi {
     \context {
       \Score
-      tempoWholesPerMinute = #(ly:make-moment 40 4)
+      tempoWholesPerMinute = #(ly:make-moment 100 4)
      }
   }
 }
