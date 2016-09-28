@@ -1,10 +1,13 @@
+% LilyBin
 upper = \relative c'' {
   \clef treble
   \key c \major
   \time 3/4
 
   b4. bes8 b4 |
-  a4~ a c
+  a2 c4 |
+  b2. |
+  gis2 gis4 |
 }
 
 lower = \relative c' {
@@ -13,7 +16,9 @@ lower = \relative c' {
   \time 3/4
 
   gis4 c e |
-  a, c e
+  a, c e |
+  e, b' e |
+  r4 b2 |
 }
 
 \score {
