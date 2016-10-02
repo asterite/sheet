@@ -7,11 +7,12 @@ upper = \relative c''' {
   b4. bes8 b4 | a2 c4 | b2. | gis2 gis4 |
   b2 gis4 | c4. b8 a4 | b4 gis2~ | r2 e'4 |
   <a, c dis>4\arpeggio <fis a>8 <gis b> <a c>4 | <e gis>2 e'4 | <a, c dis>4\arpeggio <fis a>4 <a c> | c4 b a |
-  b2. | a2 c4 | <e, gis b>2.\arpeggio~ | <e gis b>2.
+  b2. | a2 c4 | <e, gis b>2.\arpeggio~ | <e gis b>2. |
+  a4 b <a c> | d4. c8 b4 | bes2 g4 | d g bes |
 }
 
 lower = \relative c'' {
-  \clef "bass^8"
+  \clef treble
   \key c \major
   \time 3/4
 
@@ -19,6 +20,7 @@ lower = \relative c'' {
   gis4 c2 | dis,4 a' c | e,4 gis b | d2. |
   a2. | <e gis c>2. | a4 a c | d,2. |
   e4 b' e | dis, a' c | <e, gis b>2\arpeggio d4 | b2. |
+  a'4 <c e> <c e> | e, <gis b> <b e> | g <bes d> <bes d> | d, <g bes> <bes d> |
 }
 
 \score {
